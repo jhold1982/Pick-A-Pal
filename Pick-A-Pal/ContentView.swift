@@ -18,8 +18,10 @@ struct ContentView: View {
 	// MARK: - VIEW BODY
     var body: some View {
 		
+		// Outer VStack
 		VStack {
 			
+			// Inner VStack
 			VStack(spacing: 8) {
 				
 				Image(systemName: "person.3.sequence.fill")
@@ -79,7 +81,6 @@ struct ContentView: View {
 			}
 			.buttonStyle(.borderedProminent)
 			.font(.title2)
-			
 		}
 		.padding()
     }
